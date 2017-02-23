@@ -5,7 +5,7 @@
   "author": "lincenying &lt;lincenying@qq.com&gt;",
   "license": "MIT",
   "scripts": {
-    "server": "node server.js"
+    "server": "node app.js"
   },
   "dependencies": {
     "highlight.js": "^9.9.0",
@@ -28,5 +28,9 @@
     "morgan": "^1.5.3",
     "ora": "^1.1.0",
     "serve-favicon": "^2.3.2"
+  },
+  ﻿"engines": {
+    "node": "6.9.x",
+    "npm": "3.10.x"
   }
 }
