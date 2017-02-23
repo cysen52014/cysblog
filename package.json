@@ -28,8 +28,5 @@
     "morgan": "^1.5.3",
     "ora": "^1.1.0",
     "serve-favicon": "^2.3.2"
-  },
-  ﻿"engines": {
-    "node": "6.x"
   }
 }
