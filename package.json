@@ -1,8 +1,8 @@
 {
-  "name": "mmf-blog-api-v2",
+  "name": "blog",
   "version": "2.0.0",
-  "description": "mmf blog api server",
-  "author": "lincenying &lt;lincenying@qq.com&gt;",
+  "description": "blog api server",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "server": "node app.js"
@@ -30,7 +30,6 @@
     "serve-favicon": "^2.3.2"
   },
   ﻿"engines": {
-    "node": "6.9.x",
-    "npm": "3.10.x"
+    "node": "6.x"
   }
 }
