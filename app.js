@@ -46,8 +46,9 @@ app.use(function(err, req, res) {
     res.send(err.message)
 })
 
-var port = 4000
-app.listen(port, function(err) {
+var port = (process.env.VCAP_APP_PORT || 3000);
+var host = (process.env.VCAP_APP_HOST || 'localhost');
+app.listen(port, host,function(err) {
     if (err) {
         console.log(err)
         return
